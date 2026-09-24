@@ -1,0 +1,27 @@
+{
+  "name": "samasi-rangitatu-polyclinic-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official website for Samasi Rangitatu Polyclinic, Dar es Salaam, Tanzania.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/dev.js",
+    "start": "node scripts/serve.js",
+    "check": "tsc --noEmit",
+    "lint": "eslint scripts src",
+    "qa": "node scripts/qa.js",
+    "verify": "npm run check && npm run lint && npm run build && npm run qa"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.2",
+    "esbuild": "^0.28.2",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}

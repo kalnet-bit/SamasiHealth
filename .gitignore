@@ -1,0 +1,9 @@
+node_modules/
+dist/
+legacy/
+.DS_Store
+*.log
+# Local environment overrides (never committed).
+.env
+.env.local
+.env.*.local
