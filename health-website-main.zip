@@ -1,7 +1,0 @@
-unzip health-website-main.zip
-cp -a health-website-main/. .
-rm -rf health-website-main
-
-git add -A
-git commit -m "Extract health website files"
-git push origin main
